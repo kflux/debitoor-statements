@@ -8,7 +8,17 @@ I am using the excellent bookkeeping and invoicing serive [Debitoor](https://deb
  * convert Wise statements into a more Debitoor friendly format converting USD amounts into EUR
  * brute force convert Cajasiete xls files into a friendlier csv format using LibreOffice and some data juggling
 
-## Wise Bank Statements
+## Installation
+
+### Windows 10
+
+* `choco install libreoffice`
+* `pip install pandas`
+* `pip install forex-python`
+
+## Usage
+
+### Wise Bank Statements
 
 1. Login to Wise account
 2. Go to EUR or USD account
@@ -18,7 +28,7 @@ I am using the excellent bookkeeping and invoicing serive [Debitoor](https://deb
 6. run `python wise.py` and provide the path to the downloaded file as argument
 7. you should get a new bank statement csv file in your working directory
 
-## Cajasiete Bank Statements
+### Cajasiete Bank Statements
 
 1. Login to your Cajasiete account
 2. In the side menu under `Operaciones Frecuentes` select `Movimientos`
